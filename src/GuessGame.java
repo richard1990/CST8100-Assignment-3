@@ -50,14 +50,14 @@ public class GuessGame {
 	}
 	/**
 	 * Set method that sets the number of guesses.
-	 * @param	nGuessNumber	number of guesses as an integer.	
+	 * @param	nNumberOfGuesses	number of guesses as an integer.	
 	 */
 	public void setNumberOfTries(int nNumberOfGuesses) {
 		this.nNumberOfGuesses = nNumberOfGuesses;
 	}
 	
 	/**
-	 * Creates a random number between 1 and 1000.
+	 * Creates a random number between 1 and 1000 using java.util.Random.
 	 * @return a random number between 1 and 1000.
 	 */
 	public int randomNumber() {
